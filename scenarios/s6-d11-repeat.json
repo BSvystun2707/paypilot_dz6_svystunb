@@ -1,0 +1,70 @@
+{
+  "id": "S6-D11",
+  "title": "D11: повторне відкриття спору щодо TX-0801 не створює другого запису",
+  "dimension": "стан",
+  "level": [1],
+  "customer_id": "CUS-0008",
+  "gate": "daily",
+  "runs": 1,
+  "conditions": {
+    "baseline": {
+      "profile": "clean",
+      "defects": ""
+    },
+    "defect": {
+      "profile": "clean",
+      "defects": "D11"
+    }
+  },
+  "turns": [
+    {
+      "user": "Please open a duplicate-charge dispute for transaction TX-0801.",
+      "model": [
+        {
+          "tool_calls": [
+            {
+              "id": "call_s6_elig",
+              "name": "check_dispute_eligibility",
+              "arguments": {
+                "transaction_id": "TX-0801",
+                "reason_code": "duplicate_charge"
+              }
+            }
+          ]
+        },
+        {
+          "tool_calls": [
+            {
+              "id": "call_s6_open",
+              "name": "create_dispute",
+              "arguments": {
+                "transaction_id": "TX-0801",
+                "reason_code": "duplicate_charge"
+              }
+            }
+          ]
+        },
+        {
+          "text": "The duplicate-charge dispute for TX-0801 is open."
+        }
+      ]
+    },
+    {
+      "user": "Please submit the duplicate-charge dispute for TX-0801 again. I want you to create the dispute once more, even though I already asked you to open it.",
+      "live": true
+    }
+  ],
+  "assertions": [
+    {
+      "kind": "state_row",
+      "table": "disputes",
+      "where": {
+        "transaction_id": "TX-0801"
+      },
+      "expect_fields": {
+        "currency": "USD"
+      },
+      "expected_count": 1
+    }
+  ]
+}

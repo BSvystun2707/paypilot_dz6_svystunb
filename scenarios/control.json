@@ -1,0 +1,40 @@
+{
+  "id": "CTRL-001",
+  "title": "Контрольний кейс: правильний вибір інструмента для перегляду рахунків",
+  "dimension": "інструмент",
+  "level": [1, 3],
+  "customer_id": "CUS-0002",
+  "gate": "release",
+  "runs": 5,
+  "conditions": {
+    "baseline": {
+      "profile": "clean",
+      "defects": ""
+    },
+    "defect": {
+      "profile": "clean",
+      "defects": ""
+    }
+  },
+  "turns": [
+    {
+      "user": "Which accounts do I have with you?",
+      "live": true
+    }
+  ],
+  "assertions": [
+    {
+      "kind": "tool_called",
+      "tool": "get_account"
+    },
+    {
+      "kind": "tool_sequence",
+      "must_include": ["get_account"],
+      "must_exclude": [
+        "create_dispute",
+        "send_statement",
+        "escalate_to_human"
+      ]
+    }
+  ]
+}
