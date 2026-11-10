@@ -63,7 +63,7 @@
 
 | Вимірник | Сценарій | Перевірка | Рівень драбини | gate · runs |
 |---|---|---|---|---|
-| Інструмент | S7-D13 — вибір інструмента для перевірки можливості переказу | `tool_sequence`: `must_include: check_limits`, `must_exclude: get_transactions` | [3] | daily · 1 |
+| Інструмент | S7-D13 — вибір інструмента для перевірки можливості переказу | `tool_sequence`: `must_include: check_limits`, `must_exclude: get_transactions` | [3] | release · 5 |
 | Параметри | S2 — анафора «the other one» на кроці 3 | `tool_called`: `create_dispute` з `transaction_id=TX-0202`; `tool_not_called`: `create_dispute` з `transaction_id=TX-0204`. Додаткова перевірка `state_row`: рівно один запис спору для TX-0202 | [1, 4] | release · 5 |
 | Порядок | S8 — перевірка права на спір перед його створенням | `tool_order`: `check_dispute_eligibility` перед `create_dispute`. Додаткова перевірка `tool_called`: `create_dispute` для TX-0202 | [1, 3] | release · 5 |
 
