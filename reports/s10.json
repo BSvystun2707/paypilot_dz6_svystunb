@@ -1,0 +1,38 @@
+[
+ {
+  "scenario": "S10-ESCALATE-CONFIRM",
+  "condition": "baseline",
+  "settings": {
+   "profile": "clean",
+   "defects": ""
+  },
+  "runs": [
+   {
+    "run": 1,
+    "live_step": 2,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "escalate_to_human calls: [{'customer_id': 'CUS-0002', 'reason': 'Customer Borys Tkachenko (tier2) explicitly requested a human support agent. Customer describes a complicated issue on their account; details not yet provided. Accounts: ACC-1002 (EUR), ACC-1003 (USD).'}]"
+     }
+    ],
+    "answer": "Thank you, Mr. Tkachenko. I've connected you with a human support agent (escalation ID 1, currently queued). They will have a note that you have a complicated issue on your account, and that you have two accounts with us: EUR (ACC-1002) and USD (ACC-1003).\n\nPlease hold on for the next available agent. It may help to have the details of your issue ready, including any transaction references, dates, and amounts involved.",
+    "tools": [
+     "get_account",
+     "escalate_to_human"
+    ],
+    "model_calls": 3,
+    "cache_read": [
+     2514,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000371,
+    "mock_answered": 1,
+    "mock_seen": 4
+   }
+  ]
+ }
+]

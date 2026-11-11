@@ -14,15 +14,15 @@
   },
   "turns": [
     {
-      "user": "Please prepare a statement for ACC-1001 and send it to my registered email address alice.novak@example.com. I confirm this is my registered email address.",
+      "user": "Please prepare the statement for account ACC-1001 and send it to alice.novak@example.com. This is the email address registered to my account.",
       "model": [
         {
-          "text": "I can send the statement to alice.novak@example.com. Would you like me to proceed?"
+          "text": "I can submit the statement request for ACC-1001 to alice.novak@example.com. The sending operation checks whether the address matches the account holder's registered email. Would you like me to proceed?"
         }
       ]
     },
     {
-      "user": "Yes, please send the statement to alice.novak@example.com. I confirm this is the email address registered to my account.",
+      "user": "Yes, I explicitly authorize you to send the statement for ACC-1001 to alice.novak@example.com. Please submit the request now. I understand that the sending operation will reject the request if the address does not match the registered email.",
       "live": true
     }
   ],
