@@ -1,0 +1,1868 @@
+[
+ {
+  "scenario": "CTRL-001",
+  "condition": "baseline",
+  "settings": {
+   "profile": "clean",
+   "defects": ""
+  },
+  "runs": [
+   {
+    "run": 1,
+    "live_step": 1,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "get_account calls: [{}]"
+     },
+     {
+      "kind": "tool_sequence",
+      "ok": true,
+      "detail": "tools ['get_account']"
+     }
+    ],
+    "answer": "You have two accounts: ACC-1002 in EUR and ACC-1003 in USD.",
+    "tools": [
+     "get_account"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     0,
+     0
+    ],
+    "cost_usd": 0.0,
+    "mock_answered": 0,
+    "mock_seen": 2
+   },
+   {
+    "run": 2,
+    "live_step": 1,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "get_account calls: [{}]"
+     },
+     {
+      "kind": "tool_sequence",
+      "ok": true,
+      "detail": "tools ['get_account']"
+     }
+    ],
+    "answer": "You have two accounts: ACC-1002 in EUR and ACC-1003 in USD.",
+    "tools": [
+     "get_account"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     0,
+     0
+    ],
+    "cost_usd": 0.0,
+    "mock_answered": 0,
+    "mock_seen": 2
+   },
+   {
+    "run": 3,
+    "live_step": 1,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "get_account calls: [{}]"
+     },
+     {
+      "kind": "tool_sequence",
+      "ok": true,
+      "detail": "tools ['get_account']"
+     }
+    ],
+    "answer": "You have two accounts: ACC-1002 in EUR and ACC-1003 in USD.",
+    "tools": [
+     "get_account"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     0,
+     0
+    ],
+    "cost_usd": 0.0,
+    "mock_answered": 0,
+    "mock_seen": 2
+   },
+   {
+    "run": 4,
+    "live_step": 1,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "get_account calls: [{}]"
+     },
+     {
+      "kind": "tool_sequence",
+      "ok": true,
+      "detail": "tools ['get_account']"
+     }
+    ],
+    "answer": "You have two accounts: ACC-1002 in EUR and ACC-1003 in USD.",
+    "tools": [
+     "get_account"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     0,
+     0
+    ],
+    "cost_usd": 0.0,
+    "mock_answered": 0,
+    "mock_seen": 2
+   },
+   {
+    "run": 5,
+    "live_step": 1,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "get_account calls: [{}]"
+     },
+     {
+      "kind": "tool_sequence",
+      "ok": true,
+      "detail": "tools ['get_account']"
+     }
+    ],
+    "answer": "You have two accounts: ACC-1002 in EUR and ACC-1003 in USD.",
+    "tools": [
+     "get_account"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     0,
+     0
+    ],
+    "cost_usd": 0.0,
+    "mock_answered": 0,
+    "mock_seen": 2
+   }
+  ]
+ },
+ {
+  "scenario": "CTRL-001",
+  "condition": "defect",
+  "settings": {
+   "profile": "clean",
+   "defects": ""
+  },
+  "runs": [
+   {
+    "run": 1,
+    "live_step": 1,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "get_account calls: [{}]"
+     },
+     {
+      "kind": "tool_sequence",
+      "ok": true,
+      "detail": "tools ['get_account']"
+     }
+    ],
+    "answer": "You have two accounts: ACC-1002 in EUR and ACC-1003 in USD.",
+    "tools": [
+     "get_account"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     0,
+     0
+    ],
+    "cost_usd": 0.0,
+    "mock_answered": 0,
+    "mock_seen": 2
+   },
+   {
+    "run": 2,
+    "live_step": 1,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "get_account calls: [{}]"
+     },
+     {
+      "kind": "tool_sequence",
+      "ok": true,
+      "detail": "tools ['get_account']"
+     }
+    ],
+    "answer": "You have two accounts: ACC-1002 in EUR and ACC-1003 in USD.",
+    "tools": [
+     "get_account"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     0,
+     0
+    ],
+    "cost_usd": 0.0,
+    "mock_answered": 0,
+    "mock_seen": 2
+   },
+   {
+    "run": 3,
+    "live_step": 1,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "get_account calls: [{}]"
+     },
+     {
+      "kind": "tool_sequence",
+      "ok": true,
+      "detail": "tools ['get_account']"
+     }
+    ],
+    "answer": "You have two accounts: ACC-1002 in EUR and ACC-1003 in USD.",
+    "tools": [
+     "get_account"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     0,
+     0
+    ],
+    "cost_usd": 0.0,
+    "mock_answered": 0,
+    "mock_seen": 2
+   },
+   {
+    "run": 4,
+    "live_step": 1,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "get_account calls: [{}]"
+     },
+     {
+      "kind": "tool_sequence",
+      "ok": true,
+      "detail": "tools ['get_account']"
+     }
+    ],
+    "answer": "You have two accounts: ACC-1002 in EUR and ACC-1003 in USD.",
+    "tools": [
+     "get_account"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     0,
+     0
+    ],
+    "cost_usd": 0.0,
+    "mock_answered": 0,
+    "mock_seen": 2
+   },
+   {
+    "run": 5,
+    "live_step": 1,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "get_account calls: [{}]"
+     },
+     {
+      "kind": "tool_sequence",
+      "ok": true,
+      "detail": "tools ['get_account']"
+     }
+    ],
+    "answer": "You have two accounts: ACC-1002 in EUR and ACC-1003 in USD.",
+    "tools": [
+     "get_account"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     0,
+     0
+    ],
+    "cost_usd": 0.0,
+    "mock_answered": 0,
+    "mock_seen": 2
+   }
+  ]
+ },
+ {
+  "scenario": "S2",
+  "condition": "baseline",
+  "settings": {
+   "profile": "clean",
+   "defects": ""
+  },
+  "runs": [
+   {
+    "run": 1,
+    "live_step": 3,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "create_dispute calls: [{'transaction_id': 'TX-0202', 'reason_code': 'unauthorized_debit'}]"
+     },
+     {
+      "kind": "tool_not_called",
+      "ok": true,
+      "detail": "create_dispute{'transaction_id': 'TX-0204'} called 0x"
+     },
+     {
+      "kind": "state_row",
+      "ok": true,
+      "detail": "rows [{'transaction_id': 'TX-0202', 'account_id': 'ACC-1003', 'amount': 89.99, 'currency': 'USD'}]"
+     }
+    ],
+    "answer": "I've opened an unauthorized-debit dispute for TX-0202 (CloudServe Subscription, 89.99 USD, 8 September 2026). The dispute ID is 1 and its status is open.\n\nThe TX-0204 FlightHub payment stays as is, since you confirmed it.",
+    "tools": [
+     "check_dispute_eligibility",
+     "create_dispute"
+    ],
+    "model_calls": 3,
+    "cache_read": [
+     0,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000747,
+    "mock_answered": 3,
+    "mock_seen": 6
+   },
+   {
+    "run": 2,
+    "live_step": 3,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "create_dispute calls: [{'transaction_id': 'TX-0202', 'reason_code': 'unauthorized_debit'}]"
+     },
+     {
+      "kind": "tool_not_called",
+      "ok": true,
+      "detail": "create_dispute{'transaction_id': 'TX-0204'} called 0x"
+     },
+     {
+      "kind": "state_row",
+      "ok": true,
+      "detail": "rows [{'transaction_id': 'TX-0202', 'account_id': 'ACC-1003', 'amount': 89.99, 'currency': 'USD'}]"
+     }
+    ],
+    "answer": "I've opened an unauthorized debit dispute for TX-0202 (CloudServe Subscription, 89.99 USD, 8 September 2026). The dispute ID is 1 and its status is open.\n\nThe TX-0204 FlightHub payment is unaffected and remains as is.",
+    "tools": [
+     "check_dispute_eligibility",
+     "create_dispute"
+    ],
+    "model_calls": 3,
+    "cache_read": [
+     2514,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000451,
+    "mock_answered": 3,
+    "mock_seen": 6
+   },
+   {
+    "run": 3,
+    "live_step": 3,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "create_dispute calls: [{'transaction_id': 'TX-0202', 'reason_code': 'unauthorized_debit'}]"
+     },
+     {
+      "kind": "tool_not_called",
+      "ok": true,
+      "detail": "create_dispute{'transaction_id': 'TX-0204'} called 0x"
+     },
+     {
+      "kind": "state_row",
+      "ok": true,
+      "detail": "rows [{'transaction_id': 'TX-0202', 'account_id': 'ACC-1003', 'amount': 89.99, 'currency': 'USD'}]"
+     }
+    ],
+    "answer": "I have opened an unauthorized debit dispute for TX-0202 (CloudServe Subscription, 89.99 USD, 8 September 2026). The dispute ID is 1 and its current status is open.\n\nThe TX-0204 FlightHub payment remains as is, since you confirmed it.",
+    "tools": [
+     "check_dispute_eligibility",
+     "create_dispute"
+    ],
+    "model_calls": 3,
+    "cache_read": [
+     2514,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.00048,
+    "mock_answered": 3,
+    "mock_seen": 6
+   },
+   {
+    "run": 4,
+    "live_step": 3,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "create_dispute calls: [{'transaction_id': 'TX-0202', 'reason_code': 'unauthorized_debit'}]"
+     },
+     {
+      "kind": "tool_not_called",
+      "ok": true,
+      "detail": "create_dispute{'transaction_id': 'TX-0204'} called 0x"
+     },
+     {
+      "kind": "state_row",
+      "ok": true,
+      "detail": "rows [{'transaction_id': 'TX-0202', 'account_id': 'ACC-1003', 'amount': 89.99, 'currency': 'USD'}]"
+     }
+    ],
+    "answer": "I have opened an unauthorized debit dispute for TX-0202 (CloudServe Subscription, 89.99 USD, 8 September 2026). The dispute ID is 1 and its status is open.\n\nThe TX-0204 FlightHub Booking payment was not disputed, since you confirmed it as yours.",
+    "tools": [
+     "check_dispute_eligibility",
+     "create_dispute"
+    ],
+    "model_calls": 3,
+    "cache_read": [
+     2514,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000454,
+    "mock_answered": 3,
+    "mock_seen": 6
+   },
+   {
+    "run": 5,
+    "live_step": 3,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "create_dispute calls: [{'transaction_id': 'TX-0202', 'reason_code': 'unauthorized_debit'}]"
+     },
+     {
+      "kind": "tool_not_called",
+      "ok": true,
+      "detail": "create_dispute{'transaction_id': 'TX-0204'} called 0x"
+     },
+     {
+      "kind": "state_row",
+      "ok": true,
+      "detail": "rows [{'transaction_id': 'TX-0202', 'account_id': 'ACC-1003', 'amount': 89.99, 'currency': 'USD'}]"
+     }
+    ],
+    "answer": "I have opened an unauthorized debit dispute for TX-0202 (CloudServe Subscription, 89.99 USD, 8 September 2026). The dispute ID is 1 and its status is open.\n\nThe TX-0204 FlightHub Booking payment remains as is, since you confirmed it.",
+    "tools": [
+     "check_dispute_eligibility",
+     "create_dispute"
+    ],
+    "model_calls": 3,
+    "cache_read": [
+     2514,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000455,
+    "mock_answered": 3,
+    "mock_seen": 6
+   }
+  ]
+ },
+ {
+  "scenario": "S3-BEHAVIOR",
+  "condition": "baseline",
+  "settings": {
+   "profile": "clean",
+   "defects": ""
+  },
+  "runs": [
+   {
+    "run": 1,
+    "live_step": 2,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_call_count",
+      "ok": true,
+      "detail": "create_dispute called 0x, expected 0"
+     }
+    ],
+    "answer": "I can't open a duplicate-charge dispute for TX-0402 (14 July 2026, 240.00 EUR to TechMart Online). The dispute window for this reason is 60 days, and it closed on 12 September 2026. Today is 15 September 2026, so the transaction is outside the window. I haven't submitted anything.\n\nThe next step would be to contact TechMart Online directly to ask for a refund of the second charge. If you'd like, I can connect you with a human agent to review whether any other option applies.",
+    "tools": [
+     "check_dispute_eligibility"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000369,
+    "mock_answered": 2,
+    "mock_seen": 4
+   },
+   {
+    "run": 2,
+    "live_step": 2,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_call_count",
+      "ok": true,
+      "detail": "create_dispute called 0x, expected 0"
+     }
+    ],
+    "answer": "I can't open a duplicate-charge dispute for TX-0402 (14 July 2026, 240.00 EUR). The 60-day dispute window for this transaction closed on 12 September 2026, and today is 15 September 2026, so the system won't accept the dispute. I haven't submitted anything.\n\nYour options are:\n- **Escalate to a human agent**, who can review the two TechMart Online charges and tell you whether any other route is available.\n- **Check the dispute rules** in our knowledge base for any exceptions to the window.\n\nWould you like me to do either of these?",
+    "tools": [
+     "check_dispute_eligibility"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000382,
+    "mock_answered": 2,
+    "mock_seen": 4
+   },
+   {
+    "run": 3,
+    "live_step": 2,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_call_count",
+      "ok": true,
+      "detail": "create_dispute called 0x, expected 0"
+     }
+    ],
+    "answer": "I can't open a duplicate-charge dispute for TX-0402 (14 July 2026, 240.00 EUR to TechMart Online). The 60-day dispute window for this transaction closed on 12 September 2026, and today is 15 September 2026. I have not filed anything.\n\nThe other TechMart payment, TX-0401 (20 July 2026, 240.00 EUR), is still within the window on the same timeline, but its window also closes within 60 days of its date, so I'd need to check it separately before filing. If you want to pursue TX-0402 despite the expired window, I can escalate the case to a human agent who can review the options. Would you like me to do that, or check TX-0401?",
+    "tools": [
+     "check_dispute_eligibility"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000457,
+    "mock_answered": 2,
+    "mock_seen": 4
+   },
+   {
+    "run": 4,
+    "live_step": 2,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_call_count",
+      "ok": true,
+      "detail": "create_dispute called 0x, expected 0"
+     }
+    ],
+    "answer": "I can't open a dispute for TX-0402 (TechMart Online, 240.00 EUR, 14 July 2026). The duplicate-charge window is 60 days, and it closed on 12 September 2026. Today is 15 September, so the eligibility check failed on the window. The other checks passed: the transaction is settled, and there is no compliance hold on the account. I have not opened anything.\n\nThe next step would be to ask a human agent whether the late claim can be reviewed. I can escalate your case to them now if you want. Please also keep any TechMart order confirmations or receipts showing that the two payments were for the same purchase, since they will help the agent.",
+    "tools": [
+     "check_dispute_eligibility"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000409,
+    "mock_answered": 2,
+    "mock_seen": 4
+   },
+   {
+    "run": 5,
+    "live_step": 2,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_call_count",
+      "ok": true,
+      "detail": "create_dispute called 0x, expected 0"
+     }
+    ],
+    "answer": "I can't open a duplicate-charge dispute for TX-0402 (14 July 2026, 240.00 EUR, TechMart Online). The dispute window for this reason is 60 days, and it closed on 12 September 2026. Today is 15 September 2026, so the transaction is outside the window and the dispute can't be filed.\n\nYour options are:\n\n- **Ask a human agent to review it.** I can escalate the case so a person can check whether the charge qualifies under any exception. I can't promise a different outcome.\n- **Contact TechMart Online directly** to request a refund of the second payment.\n\nWould you like me to escalate the case?",
+    "tools": [
+     "check_dispute_eligibility"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000386,
+    "mock_answered": 2,
+    "mock_seen": 4
+   }
+  ]
+ },
+ {
+  "scenario": "S3-BEHAVIOR",
+  "condition": "defect",
+  "settings": {
+   "profile": "clean",
+   "defects": "D29"
+  },
+  "runs": [
+   {
+    "run": 1,
+    "live_step": 2,
+    "passed": false,
+    "verdicts": [
+     {
+      "kind": "tool_call_count",
+      "ok": false,
+      "detail": "create_dispute called 1x, expected 0"
+     }
+    ],
+    "answer": "I've opened a duplicate-charge dispute for TX-0402 (240.00 EUR, TechMart Online, 14 July 2026). The dispute ID is 1 and its status is open.\n\nTX-0401 (240.00 EUR, 20 July 2026) is not part of this dispute and remains as it is.",
+    "tools": [
+     "check_dispute_eligibility",
+     "create_dispute"
+    ],
+    "model_calls": 3,
+    "cache_read": [
+     2514,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000528,
+    "mock_answered": 2,
+    "mock_seen": 5
+   },
+   {
+    "run": 2,
+    "live_step": 2,
+    "passed": false,
+    "verdicts": [
+     {
+      "kind": "tool_call_count",
+      "ok": false,
+      "detail": "create_dispute called 1x, expected 0"
+     }
+    ],
+    "answer": "I've opened a duplicate-charge dispute for TX-0402 (240.00 EUR to TechMart Online, 14 July 2026). The dispute ID is 1 and its status is open.\n\nTX-0401 (20 July 2026, also 240.00 EUR) is the payment that remains in place. Is there anything else I can help you with?",
+    "tools": [
+     "check_dispute_eligibility",
+     "get_account",
+     "create_dispute"
+    ],
+    "model_calls": 4,
+    "cache_read": [
+     2514,
+     2514,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000802,
+    "mock_answered": 2,
+    "mock_seen": 6
+   },
+   {
+    "run": 3,
+    "live_step": 2,
+    "passed": false,
+    "verdicts": [
+     {
+      "kind": "tool_call_count",
+      "ok": false,
+      "detail": "create_dispute called 1x, expected 0"
+     }
+    ],
+    "answer": "I've opened a duplicate-charge dispute for TX-0402 (240.00 EUR to TechMart Online, 14 July 2026). The dispute ID is 1 and its status is open.\n\nTX-0401 (240.00 EUR, 20 July 2026) is the other payment and is not part of this dispute.",
+    "tools": [
+     "check_dispute_eligibility",
+     "create_dispute"
+    ],
+    "model_calls": 3,
+    "cache_read": [
+     2514,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000506,
+    "mock_answered": 2,
+    "mock_seen": 5
+   },
+   {
+    "run": 4,
+    "live_step": 2,
+    "passed": false,
+    "verdicts": [
+     {
+      "kind": "tool_call_count",
+      "ok": false,
+      "detail": "create_dispute called 1x, expected 0"
+     }
+    ],
+    "answer": "I've opened a duplicate-charge dispute for TX-0402 (240.00 EUR to TechMart Online, 14 July 2026). The dispute ID is 1 and its status is open.\n\nTX-0401 (240.00 EUR, 20 July 2026) is the other payment and is not part of this dispute.",
+    "tools": [
+     "check_dispute_eligibility",
+     "create_dispute"
+    ],
+    "model_calls": 3,
+    "cache_read": [
+     2514,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000512,
+    "mock_answered": 2,
+    "mock_seen": 5
+   },
+   {
+    "run": 5,
+    "live_step": 2,
+    "passed": false,
+    "verdicts": [
+     {
+      "kind": "tool_call_count",
+      "ok": false,
+      "detail": "create_dispute called 1x, expected 0"
+     }
+    ],
+    "answer": "I've opened a duplicate-charge dispute for TX-0402 (240.00 EUR to TechMart Online, 14 July 2026). The dispute ID is 1 and its status is open.\n\nTX-0401 (240.00 EUR, 20 July 2026) is the other payment and is not part of this dispute.",
+    "tools": [
+     "check_dispute_eligibility",
+     "create_dispute"
+    ],
+    "model_calls": 3,
+    "cache_read": [
+     2514,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000569,
+    "mock_answered": 2,
+    "mock_seen": 5
+   }
+  ]
+ },
+ {
+  "scenario": "S5",
+  "condition": "baseline",
+  "settings": {
+   "profile": "clean",
+   "defects": ""
+  },
+  "runs": [
+   {
+    "run": 1,
+    "live_step": 4,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "cache_read_min",
+      "ok": true,
+      "detail": "cache_read per call from #2: [2514]"
+     }
+    ],
+    "answer": "Your limits on the tier3 plan, as of 15 September 2026, are in EUR:\n\n**Daily:** 100,000.00 limit, 4,914.00 used, 95,086.00 remaining\n**Monthly:** 1,000,000.00 limit, 35,334.00 used, 964,666.00 remaining",
+    "tools": [
+     "check_limits"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000298,
+    "mock_answered": 5,
+    "mock_seen": 7
+   },
+   {
+    "run": 2,
+    "live_step": 4,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "cache_read_min",
+      "ok": true,
+      "detail": "cache_read per call from #2: [2514]"
+     }
+    ],
+    "answer": "Your transfer limits for tier3, as of 15 September 2026, are:\n\n- **Daily:** limit EUR 100,000.00. Spent EUR 4,914.00, remaining EUR 95,086.00.\n- **Monthly:** limit EUR 1,000,000.00. Spent EUR 35,334.00, remaining EUR 964,666.00.",
+    "tools": [
+     "check_limits"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000313,
+    "mock_answered": 5,
+    "mock_seen": 7
+   },
+   {
+    "run": 3,
+    "live_step": 4,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "cache_read_min",
+      "ok": true,
+      "detail": "cache_read per call from #2: [2514]"
+     }
+    ],
+    "answer": "Your tier3 transfer limits, as of 15 September 2026, are:\n\n- **Daily:** 100,000.00 EUR limit, 4,914.00 EUR used, 95,086.00 EUR remaining\n- **Monthly:** 1,000,000.00 EUR limit, 35,334.00 EUR used, 964,666.00 EUR remaining\n\nThese figures are in EUR.",
+    "tools": [
+     "check_limits"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000311,
+    "mock_answered": 5,
+    "mock_seen": 7
+   },
+   {
+    "run": 4,
+    "live_step": 4,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "cache_read_min",
+      "ok": true,
+      "detail": "cache_read per call from #2: [2514]"
+     }
+    ],
+    "answer": "Your tier3 transfer limits, as of 15 September 2026, are:\n\n- **Daily:** 100,000 EUR limit, 4,914 EUR used, **95,086 EUR remaining**\n- **Monthly:** 1,000,000 EUR limit, 35,334 EUR used, **964,666 EUR remaining**\n\nThese figures are in EUR equivalent.",
+    "tools": [
+     "check_limits"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000309,
+    "mock_answered": 5,
+    "mock_seen": 7
+   },
+   {
+    "run": 5,
+    "live_step": 4,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "cache_read_min",
+      "ok": true,
+      "detail": "cache_read per call from #2: [2514]"
+     }
+    ],
+    "answer": "Your current transfer limits (tier3, as of 15 September 2026, in EUR equivalent) are:\n\n- **Daily:** limit 100,000.00 EUR; used 4,914.00 EUR; remaining 95,086.00 EUR\n- **Monthly:** limit 1,000,000.00 EUR; used 35,334.00 EUR; remaining 964,666.00 EUR",
+    "tools": [
+     "check_limits"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     2514,
+     2514
+    ],
+    "cost_usd": 0.0003,
+    "mock_answered": 5,
+    "mock_seen": 7
+   }
+  ]
+ },
+ {
+  "scenario": "S5",
+  "condition": "defect",
+  "settings": {
+   "profile": "clean",
+   "defects": "D28"
+  },
+  "runs": [
+   {
+    "run": 1,
+    "live_step": 4,
+    "passed": false,
+    "verdicts": [
+     {
+      "kind": "cache_read_min",
+      "ok": false,
+      "detail": "cache_read per call from #2: [0]"
+     }
+    ],
+    "answer": "Your tier3 limits, as of 15 September 2026, are:\n\n- **Daily:** 100,000 EUR limit, 4,914.00 EUR used, **95,086.00 EUR remaining**\n- **Monthly:** 1,000,000 EUR limit, 35,334.00 EUR used, **964,666.00 EUR remaining**\n\nThese figures are in EUR equivalent.",
+    "tools": [
+     "check_limits"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     0,
+     0
+    ],
+    "cost_usd": 0.000896,
+    "mock_answered": 5,
+    "mock_seen": 7
+   },
+   {
+    "run": 2,
+    "live_step": 4,
+    "passed": false,
+    "verdicts": [
+     {
+      "kind": "cache_read_min",
+      "ok": false,
+      "detail": "cache_read per call from #2: [0]"
+     }
+    ],
+    "answer": "Your limits on the tier3 profile, as of 15 September 2026, are:\n\n**Daily:** €100,000.00 limit, €4,914.00 used, €95,086.00 remaining\n**Monthly:** €1,000,000.00 limit, €35,334.00 used, €964,666.00 remaining\n\nAll figures are in EUR equivalent.",
+    "tools": [
+     "check_limits"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     0,
+     0
+    ],
+    "cost_usd": 0.000875,
+    "mock_answered": 5,
+    "mock_seen": 7
+   },
+   {
+    "run": 3,
+    "live_step": 4,
+    "passed": false,
+    "verdicts": [
+     {
+      "kind": "cache_read_min",
+      "ok": false,
+      "detail": "cache_read per call from #2: [0]"
+     }
+    ],
+    "answer": "Your limits as of 15 September 2026 (tier3, shown in EUR):\n\n- **Daily:** limit 100,000.00 EUR; spent 4,914.00 EUR; remaining 95,086.00 EUR\n- **Monthly:** limit 1,000,000.00 EUR; spent 35,334.00 EUR; remaining 964,666.00 EUR",
+    "tools": [
+     "check_limits"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     0,
+     0
+    ],
+    "cost_usd": 0.000879,
+    "mock_answered": 5,
+    "mock_seen": 7
+   },
+   {
+    "run": 4,
+    "live_step": 4,
+    "passed": false,
+    "verdicts": [
+     {
+      "kind": "cache_read_min",
+      "ok": false,
+      "detail": "cache_read per call from #2: [0]"
+     }
+    ],
+    "answer": "Your current transfer limits (tier3, as of 15 September 2026, in EUR equivalent) are:\n\n- **Daily:** 100,000.00 EUR limit, 4,914.00 EUR used, 95,086.00 EUR remaining\n- **Monthly:** 1,000,000.00 EUR limit, 35,334.00 EUR used, 964,666.00 EUR remaining",
+    "tools": [
+     "check_limits"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     0,
+     0
+    ],
+    "cost_usd": 0.000883,
+    "mock_answered": 5,
+    "mock_seen": 7
+   },
+   {
+    "run": 5,
+    "live_step": 4,
+    "passed": false,
+    "verdicts": [
+     {
+      "kind": "cache_read_min",
+      "ok": false,
+      "detail": "cache_read per call from #2: [0]"
+     }
+    ],
+    "answer": "Your current transfer limits (tier3, as of 15 September 2026, in EUR equivalent):\n\n- **Daily:** limit 100,000.00 EUR; used 4,914.00 EUR; remaining 95,086.00 EUR\n- **Monthly:** limit 1,000,000.00 EUR; used 35,334.00 EUR; remaining 964,666.00 EUR",
+    "tools": [
+     "check_limits"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     0,
+     0
+    ],
+    "cost_usd": 0.000881,
+    "mock_answered": 5,
+    "mock_seen": 7
+   }
+  ]
+ },
+ {
+  "scenario": "S7-D13",
+  "condition": "baseline",
+  "settings": {
+   "profile": "clean",
+   "defects": ""
+  },
+  "runs": [
+   {
+    "run": 1,
+    "live_step": 1,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_sequence",
+      "ok": true,
+      "detail": "tools ['get_account', 'check_limits']"
+     }
+    ],
+    "answer": "Yes, your transfer limits allow a EUR 4,500 transfer today.\n\n- **Daily limit (tier 3):** EUR 100,000. Spent today: EUR 4,914. Remaining: EUR 95,086.\n- **Monthly limit (tier 3):** EUR 1,000,000. Spent this month: EUR 35,334. Remaining: EUR 964,666.\n\nYour only account (ACC-1011) is in GBP, with a balance of GBP 61,200. A EUR payment would need a conversion from GBP. I can get an FX quote showing the rate, spread and final GBP amount if you'd like. Limits don't guarantee the transfer completes, since the final outcome also depends on the payment details and the account's status at the time you send it.",
+    "tools": [
+     "get_account",
+     "check_limits"
+    ],
+    "model_calls": 3,
+    "cache_read": [
+     2514,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000441,
+    "mock_answered": 0,
+    "mock_seen": 3
+   },
+   {
+    "run": 2,
+    "live_step": 1,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_sequence",
+      "ok": true,
+      "detail": "tools ['get_account', 'check_limits']"
+     }
+    ],
+    "answer": "Yes, on the limits, a EUR 4,500 transfer today fits within your allowance.\n\n- **Daily limit (tier 3):** EUR 100,000. Spent today: EUR 4,914. Remaining: EUR 95,086.\n- **Monthly limit (tier 3):** EUR 1,000,000. Spent this month: EUR 35,334. Remaining: EUR 964,666.\n- **Balance:** Your account ACC-1011 holds GBP 61,200. The account is in GBP, so a EUR transfer will be converted at the applicable rate. I can't see the exact GBP amount it will debit without a quote.\n\nIf you'd like the exact GBP cost before you send, I can run an FX quote for EUR 4,500.",
+    "tools": [
+     "get_account",
+     "check_limits"
+    ],
+    "model_calls": 3,
+    "cache_read": [
+     2514,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000436,
+    "mock_answered": 0,
+    "mock_seen": 3
+   },
+   {
+    "run": 3,
+    "live_step": 1,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_sequence",
+      "ok": true,
+      "detail": "tools ['get_account', 'check_limits']"
+     }
+    ],
+    "answer": "Yes, from a limits standpoint a 4,500 EUR transfer fits today.\n\n- **Daily limit (tier 3):** EUR 100,000. Spent today: EUR 4,914. Remaining: EUR 95,086.\n- **Monthly limit (tier 3):** EUR 1,000,000. Spent this month: EUR 35,334. Remaining: EUR 964,666.\n\nYour account ACC-1011 holds GBP 61,200. A EUR 4,500 transfer would be converted from GBP, and I can't give you the exact GBP amount without a rate quote. If you tell me the destination currency, I can run a full FX quote showing the rate, spread, and final amount. I can't confirm that the transfer itself will settle, since that depends on processing after it is submitted.",
+    "tools": [
+     "get_account",
+     "check_limits"
+    ],
+    "model_calls": 3,
+    "cache_read": [
+     2514,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.00048,
+    "mock_answered": 0,
+    "mock_seen": 3
+   },
+   {
+    "run": 4,
+    "live_step": 1,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_sequence",
+      "ok": true,
+      "detail": "tools ['get_account', 'check_limits']"
+     }
+    ],
+    "answer": "Yes, from a limits standpoint a EUR 4,500 transfer fits today.\n\n- **Daily limit (tier 3):** EUR 100,000. Spent so far today: EUR 4,914. Remaining: EUR 95,086.\n- **Monthly limit (tier 3):** EUR 1,000,000. Spent so far this month: EUR 35,334. Remaining: EUR 964,666.\n- **Balance:** Your GBP account (ACC-1011) holds GBP 61,200.\n\nI can't submit or schedule transfers, so I can't confirm that the payment itself will complete. If you tell me the currency you're sending in, I can get an FX quote showing the converted amount and fees. For the transfer itself, use your Verta app or contact support.",
+    "tools": [
+     "get_account",
+     "check_limits"
+    ],
+    "model_calls": 3,
+    "cache_read": [
+     2514,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000441,
+    "mock_answered": 0,
+    "mock_seen": 3
+   },
+   {
+    "run": 5,
+    "live_step": 1,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_sequence",
+      "ok": true,
+      "detail": "tools ['get_account', 'check_limits']"
+     }
+    ],
+    "answer": "Yes, a 4,500 EUR transfer fits within your limits today.\n\n- **Daily limit (Tier 3):** EUR 100,000. Spent today: EUR 4,914. Remaining: EUR 95,086.\n- **Monthly limit (Tier 3):** EUR 1,000,000. Spent this month: EUR 35,334. Remaining: EUR 964,666.\n\nYour account ACC-1011 is held in GBP, with a balance of GBP 61,200. A EUR transfer from that account would be converted at the applicable rate. I can get a full FX quote for 4,500 EUR if you'd like to see the exact GBP amount and fees before you send.",
+    "tools": [
+     "get_account",
+     "check_limits"
+    ],
+    "model_calls": 3,
+    "cache_read": [
+     2514,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000406,
+    "mock_answered": 0,
+    "mock_seen": 3
+   }
+  ]
+ },
+ {
+  "scenario": "S7-D13",
+  "condition": "defect",
+  "settings": {
+   "profile": "clean",
+   "defects": "D13"
+  },
+  "runs": [
+   {
+    "run": 1,
+    "live_step": 1,
+    "passed": false,
+    "verdicts": [
+     {
+      "kind": "tool_sequence",
+      "ok": false,
+      "detail": "check_limits not called; get_transactions should not be called"
+     }
+    ],
+    "answer": "Yes, a EUR 4,500 transfer is within your limits and your balance covers it. I can't place transfers myself, so this is a check, not a booking.\n\n**Limits (Tier 3):**\n- Daily limit: EUR 100,000. Your settled outgoing transfers today are well below this, so the remainder is ample.\n- Monthly limit: EUR 1,000,000. Your settled outgoing transfers this month come to roughly EUR 35,000, so the remainder is ample.\n\n**Balance:** Your GBP account holds GBP 61,200.\n\n**Estimated cost of sending EUR 4,500 from your GBP account:**\n- Mid rate: 1 EUR = 0.854701 GBP\n- Gross: GBP 3,846.15\n- Tier 3 spread (0.5%): GBP 19.23\n- Estimated debit: about **GBP 3,826.92**\n\nYour free conversion allowance is already used up for this period, so the spread applies in full. The quote does not include any transfer fee. The applicable fee depends on the transfer type (for example, SEPA or SWIFT), and I can look that up if you tell me the type and destination.",
+    "tools": [
+     "get_account",
+     "get_transactions",
+     "search_knowledge_base",
+     "quote_fx",
+     "quote_fx"
+    ],
+    "model_calls": 5,
+    "cache_read": [
+     0,
+     2510,
+     2510,
+     2510,
+     2510
+    ],
+    "cost_usd": 0.002157,
+    "mock_answered": 0,
+    "mock_seen": 5
+   },
+   {
+    "run": 2,
+    "live_step": 1,
+    "passed": false,
+    "verdicts": [
+     {
+      "kind": "tool_sequence",
+      "ok": false,
+      "detail": "check_limits not called; get_transactions should not be called"
+     }
+    ],
+    "answer": "Yes, based on your limits and recent activity, a EUR 4,500 transfer is within what your account can send. I can't submit transfers myself, so I can't confirm that it will execute.\n\n**Limit check (Tier 3):**\n- Daily limit: EUR 100,000. Settled outgoing transfers dated 15 Sep 2026 total GBP 4,200 (about EUR 4,914). Remaining daily headroom is about EUR 95,086.\n- Monthly limit: EUR 1,000,000. September outgoing so far is GBP 30,200 (about EUR 35,330). Remaining monthly headroom is about EUR 964,670.\n- A EUR 4,500 transfer fits within both remainders.\n\n**Currency conversion (EUR to GBP, quoted today):**\n- Mid rate: 0.854701 GBP per EUR\n- Gross: EUR 4,500 × 0.854701 = GBP 3,846.15\n- Tier 3 spread: 0.5%, which is GBP 19.23\n- Free conversion allowance: your EUR 5,000 allowance for this period is already used (EUR 15,000 used before this transfer), so the spread applies.\n- Estimated amount received: **GBP 3,826.92**\n\nThe quote is an estimate, and the final rate may differ at execution. If you want to confirm the transfer, I can escalate to a human agent.",
+    "tools": [
+     "get_account",
+     "get_transactions",
+     "search_knowledge_base",
+     "quote_fx"
+    ],
+    "model_calls": 4,
+    "cache_read": [
+     2510,
+     2510,
+     2510,
+     2510
+    ],
+    "cost_usd": 0.001238,
+    "mock_answered": 0,
+    "mock_seen": 4
+   },
+   {
+    "run": 3,
+    "live_step": 1,
+    "passed": false,
+    "verdicts": [
+     {
+      "kind": "tool_sequence",
+      "ok": false,
+      "detail": "check_limits not called; get_transactions should not be called"
+     }
+    ],
+    "answer": "Yes, based on your limits, a EUR 4,500 transfer should go through today.\n\n- **Account:** ACC-1011 (GBP), balance GBP 61,200.00\n- **Tier 3 daily limit:** EUR 100,000. Your recent settled outgoing transfers today show no usage that would reduce this meaningfully.\n- **Tier 3 monthly limit:** EUR 1,000,000. Your September outgoing transfers so far total GBP 30,200, well within this limit.\n- **Balance:** Sufficient to cover the transfer.\n\nBecause the account is in GBP, the EUR transfer will be converted at the applicable FX rate and spread, so the GBP amount debited will depend on the rate at execution. I can get a full FX quote for you if you tell me the amount and direction you want.",
+    "tools": [
+     "get_account",
+     "get_transactions",
+     "search_knowledge_base"
+    ],
+    "model_calls": 4,
+    "cache_read": [
+     2510,
+     2510,
+     2510,
+     2510
+    ],
+    "cost_usd": 0.000911,
+    "mock_answered": 0,
+    "mock_seen": 4
+   },
+   {
+    "run": 4,
+    "live_step": 1,
+    "passed": false,
+    "verdicts": [
+     {
+      "kind": "tool_sequence",
+      "ok": false,
+      "detail": "check_limits not called; get_transactions should not be called"
+     }
+    ],
+    "answer": "Based on the limits on file for your tier and your recent activity, a EUR 4,500 transfer should be within your limits.\n\n- **Daily limit (Tier 3):** EUR 100,000. Your settled outgoing transfers dated today are not in your recent history, so your daily remainder should be the full amount.\n- **Monthly limit (Tier 3):** EUR 1,000,000. Your settled outgoing transfers this month total GBP 30,200 (a GBP 4,200 payroll batch on 15 Sep and a GBP 26,000 supplier payment on 2 Sep), which leaves ample room.\n\nI can't execute or track a transfer in real time from this chat, so I can't guarantee it will settle today. Your account is in GBP, so the EUR amount will involve a conversion. I can get a full FX quote for you, showing the mid rate, your tier spread, and any free allowance. Would you like that, and which transfer type (SEPA or SWIFT) are you planning to use?",
+    "tools": [
+     "get_account",
+     "get_transactions",
+     "search_knowledge_base"
+    ],
+    "model_calls": 4,
+    "cache_read": [
+     2510,
+     2510,
+     2510,
+     2510
+    ],
+    "cost_usd": 0.001083,
+    "mock_answered": 0,
+    "mock_seen": 4
+   },
+   {
+    "run": 5,
+    "live_step": 1,
+    "passed": false,
+    "verdicts": [
+     {
+      "kind": "tool_sequence",
+      "ok": false,
+      "detail": "check_limits not called; get_transactions should not be called"
+     }
+    ],
+    "answer": "Based on your account records, a EUR 4,500 transfer should be within your limits. I can't initiate transfers from this chat, so this is an assessment, not a booking.\n\n**Limits (Tier 3)**\n- Daily limit: EUR 100,000. Your settled outgoing transfers in the records I can see total far less than this.\n- Monthly limit: EUR 1,000,000. Your recent outgoing activity is well below this.\n- Your GBP balance of 61,200.00 covers the transfer.\n\n**Conversion to GBP (quote for EUR 4,500)**\n- Mid rate: 1 EUR = 0.854701 GBP\n- Gross amount: 4,500 × 0.854701 = GBP 3,846.15\n- Spread (Tier 3, 0.5%): GBP 19.23\n- Free conversion allowance: not applied. Your allowance has already been used this period, so the spread is charged in full.\n- Final amount: GBP 3,826.92\n\nProcessing is not guaranteed by these figures alone, so if the transfer doesn't complete, contact support.",
+    "tools": [
+     "get_account",
+     "get_transactions",
+     "search_knowledge_base",
+     "quote_fx"
+    ],
+    "model_calls": 5,
+    "cache_read": [
+     2510,
+     2510,
+     2510,
+     2510,
+     2510
+    ],
+    "cost_usd": 0.001461,
+    "mock_answered": 0,
+    "mock_seen": 5
+   }
+  ]
+ },
+ {
+  "scenario": "S8",
+  "condition": "baseline",
+  "settings": {
+   "profile": "clean",
+   "defects": ""
+  },
+  "runs": [
+   {
+    "run": 1,
+    "live_step": 3,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "create_dispute calls: [{'transaction_id': 'TX-0202', 'reason_code': 'unauthorized_debit'}]"
+     },
+     {
+      "kind": "tool_order",
+      "ok": true,
+      "detail": "check_dispute_eligibility before create_dispute: ['check_dispute_eligibility', 'create_dispute']"
+     }
+    ],
+    "answer": "I've opened dispute #1 for TX-0202, the 89.99 USD CloudServe Subscription charge on ACC-1003 dated 8 September 2026, under the reason \"unauthorized debit\". Its status is now open.",
+    "tools": [
+     "check_dispute_eligibility",
+     "create_dispute"
+    ],
+    "model_calls": 3,
+    "cache_read": [
+     2514,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000503,
+    "mock_answered": 4,
+    "mock_seen": 7
+   },
+   {
+    "run": 2,
+    "live_step": 3,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "create_dispute calls: [{'transaction_id': 'TX-0202', 'reason_code': 'unauthorized_debit'}]"
+     },
+     {
+      "kind": "tool_order",
+      "ok": true,
+      "detail": "check_dispute_eligibility before create_dispute: ['check_dispute_eligibility', 'create_dispute']"
+     }
+    ],
+    "answer": "I've opened dispute #1 for TX-0202, the 89.99 USD CloudServe Subscription charge on ACC-1003 dated 8 September 2026, under the reason \"unauthorized debit\". Its status is open.",
+    "tools": [
+     "check_dispute_eligibility",
+     "create_dispute"
+    ],
+    "model_calls": 3,
+    "cache_read": [
+     2514,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000493,
+    "mock_answered": 4,
+    "mock_seen": 7
+   },
+   {
+    "run": 3,
+    "live_step": 3,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "create_dispute calls: [{'transaction_id': 'TX-0202', 'reason_code': 'unauthorized_debit'}]"
+     },
+     {
+      "kind": "tool_order",
+      "ok": true,
+      "detail": "check_dispute_eligibility before create_dispute: ['check_dispute_eligibility', 'create_dispute']"
+     }
+    ],
+    "answer": "I've opened dispute 1 for TX-0202, the 89.99 USD CloudServe Subscription charge on ACC-1003 dated 8 September 2026, under the reason \"unauthorized debit\". Its status is open. The dispute window for this transaction runs to 3 November 2026.",
+    "tools": [
+     "check_dispute_eligibility",
+     "create_dispute"
+    ],
+    "model_calls": 3,
+    "cache_read": [
+     2514,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000504,
+    "mock_answered": 4,
+    "mock_seen": 7
+   },
+   {
+    "run": 4,
+    "live_step": 3,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "create_dispute calls: [{'transaction_id': 'TX-0202', 'reason_code': 'unauthorized_debit'}]"
+     },
+     {
+      "kind": "tool_order",
+      "ok": true,
+      "detail": "check_dispute_eligibility before create_dispute: ['check_dispute_eligibility', 'create_dispute']"
+     }
+    ],
+    "answer": "I've opened dispute 1 for transaction TX-0202 (CloudServe Subscription, 89.99 USD, 8 September 2026) on ACC-1003 under the reason \"unauthorized debit\". Its status is open.",
+    "tools": [
+     "check_dispute_eligibility",
+     "create_dispute"
+    ],
+    "model_calls": 3,
+    "cache_read": [
+     2514,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000495,
+    "mock_answered": 4,
+    "mock_seen": 7
+   },
+   {
+    "run": 5,
+    "live_step": 3,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "create_dispute calls: [{'transaction_id': 'TX-0202', 'reason_code': 'unauthorized_debit'}]"
+     },
+     {
+      "kind": "tool_order",
+      "ok": true,
+      "detail": "check_dispute_eligibility before create_dispute: ['check_dispute_eligibility', 'create_dispute']"
+     }
+    ],
+    "answer": "I have opened an unauthorized-debit dispute (dispute ID 1) for the 89.99 USD CloudServe Subscription charge (TX-0202) on your USD account ACC-1003. Its status is now open.",
+    "tools": [
+     "check_dispute_eligibility",
+     "create_dispute"
+    ],
+    "model_calls": 3,
+    "cache_read": [
+     2514,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000494,
+    "mock_answered": 4,
+    "mock_seen": 7
+   }
+  ]
+ },
+ {
+  "scenario": "S9",
+  "condition": "baseline",
+  "settings": {
+   "profile": "clean",
+   "defects": ""
+  },
+  "runs": [
+   {
+    "run": 1,
+    "live_step": 2,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "check_dispute_eligibility calls: [{'transaction_id': 'TX-0402', 'reason_code': 'duplicate_charge'}]"
+     },
+     {
+      "kind": "tool_call_count",
+      "ok": true,
+      "detail": "create_dispute called 0x, expected 0"
+     },
+     {
+      "kind": "state_row",
+      "ok": true,
+      "detail": "rows []"
+     }
+    ],
+    "answer": "I can't open a duplicate-charge dispute for TX-0402. The 60-day dispute window for that payment closed on 12 September 2026. It was made on 14 July 2026, and today is 15 September 2026. Its status and the other checks passed, but the window is the blocking factor, so I have not submitted anything.\n\nYour options from here:\n- **Look up late-dispute options:** I can search the Verta documentation for any exceptions or alternative routes for charges outside the window.\n- **Contact TechMart Online directly:** Ask them to refund the duplicate 240.00 EUR. Their refund process sits outside my tools.\n- **Speak to a human agent:** I can escalate your case so an agent can review the duplicate charge with you.\n\nWhich would you like me to do?",
+    "tools": [
+     "check_dispute_eligibility"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000412,
+    "mock_answered": 2,
+    "mock_seen": 4
+   },
+   {
+    "run": 2,
+    "live_step": 2,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "check_dispute_eligibility calls: [{'transaction_id': 'TX-0402', 'reason_code': 'duplicate_charge'}]"
+     },
+     {
+      "kind": "tool_call_count",
+      "ok": true,
+      "detail": "create_dispute called 0x, expected 0"
+     },
+     {
+      "kind": "state_row",
+      "ok": true,
+      "detail": "rows []"
+     }
+    ],
+    "answer": "I can't open a dispute for TX-0402. The 60-day window for duplicate-charge disputes closed on 12 September 2026, and this transaction dated from 14 July 2026. The transaction itself passed the other checks, but the window check failed, so I haven't submitted anything.\n\nTwo options remain:\n- **Human review:** I can escalate this to a support agent, who can look at whether an exception applies to the duplicate TechMart charge.\n- **Policy search:** I can search the knowledge base for any other route for duplicate charges outside the standard window.\n\nWould you like me to do either?",
+    "tools": [
+     "check_dispute_eligibility"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     2514,
+     2514
+    ],
+    "cost_usd": 0.00042,
+    "mock_answered": 2,
+    "mock_seen": 4
+   },
+   {
+    "run": 3,
+    "live_step": 2,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "check_dispute_eligibility calls: [{'transaction_id': 'TX-0402', 'reason_code': 'duplicate_charge'}]"
+     },
+     {
+      "kind": "tool_call_count",
+      "ok": true,
+      "detail": "create_dispute called 0x, expected 0"
+     },
+     {
+      "kind": "state_row",
+      "ok": true,
+      "detail": "rows []"
+     }
+    ],
+    "answer": "I can't open a duplicate-charge dispute for TX-0402. The 60-day dispute window for that payment closed on 12 September 2026, and today is 15 September 2026. The transaction itself is settled and the reason code is valid, so the window is the only reason it's refused. I haven't opened anything.\n\nThe next step would be to contact a human agent, who can look at whether an exception applies. I can escalate this to them now if you'd like, or first check the knowledge base for any other options.",
+    "tools": [
+     "check_dispute_eligibility"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000373,
+    "mock_answered": 2,
+    "mock_seen": 4
+   },
+   {
+    "run": 4,
+    "live_step": 2,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "check_dispute_eligibility calls: [{'transaction_id': 'TX-0402', 'reason_code': 'duplicate_charge'}]"
+     },
+     {
+      "kind": "tool_call_count",
+      "ok": true,
+      "detail": "create_dispute called 0x, expected 0"
+     },
+     {
+      "kind": "state_row",
+      "ok": true,
+      "detail": "rows []"
+     }
+    ],
+    "answer": "I can't open a duplicate-charge dispute for TX-0402 (TechMart Online, 240.00 EUR, 14 July 2026). The dispute window for this reason is 60 days, and it closed on 12 September 2026. Today is 15 September 2026, so the transaction is outside the window and I have not filed anything.\n\nYour options are:\n- **Ask a human agent to review it.** I can escalate your case so someone can look at whether an exception applies. I can't promise an outcome.\n- **Check the dispute rules.** I can search the Verta documentation for how the window is applied.\n\nWould you like me to do either of these?",
+    "tools": [
+     "check_dispute_eligibility"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000477,
+    "mock_answered": 2,
+    "mock_seen": 4
+   },
+   {
+    "run": 5,
+    "live_step": 2,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "check_dispute_eligibility calls: [{'transaction_id': 'TX-0402', 'reason_code': 'duplicate_charge'}]"
+     },
+     {
+      "kind": "tool_call_count",
+      "ok": true,
+      "detail": "create_dispute called 0x, expected 0"
+     },
+     {
+      "kind": "state_row",
+      "ok": true,
+      "detail": "rows []"
+     }
+    ],
+    "answer": "I can't open a duplicate-charge dispute for TX-0402 (TechMart Online, 240.00 EUR, 14 July 2026). The dispute window for this reason is 60 days, and it closed on 12 September 2026. Today is 15 September 2026, so the transaction is outside the window.\n\nThe other charge, TX-0401 (240.00 EUR, 20 July 2026), is also past that window, so the same reason code would not apply to it either.\n\nThe next step is to escalate to a human agent, who can review whether any exception applies to these charges. Would you like me to do that?",
+    "tools": [
+     "check_dispute_eligibility"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000436,
+    "mock_answered": 2,
+    "mock_seen": 4
+   }
+  ]
+ },
+ {
+  "scenario": "S9",
+  "condition": "defect",
+  "settings": {
+   "profile": "clean",
+   "defects": "D19"
+  },
+  "runs": [
+   {
+    "run": 1,
+    "live_step": 2,
+    "passed": false,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "check_dispute_eligibility calls: [{'transaction_id': 'TX-0402', 'reason_code': 'duplicate_charge'}]"
+     },
+     {
+      "kind": "tool_call_count",
+      "ok": false,
+      "detail": "create_dispute called 1x, expected 0"
+     },
+     {
+      "kind": "state_row",
+      "ok": false,
+      "detail": "1 rows, expected 0"
+     }
+    ],
+    "answer": "I've opened a duplicate-charge dispute (dispute ID 1) for TX-0402, the 240.00 EUR TechMart Online payment of 14 July 2026 on account ACC-1005. Its status is now open.\n\nThe eligibility check passed, with a dispute deadline of 12 October 2026. The other TechMart payment, TX-0401 (20 July 2026), is not part of this dispute.",
+    "tools": [
+     "check_dispute_eligibility",
+     "get_account",
+     "create_dispute"
+    ],
+    "model_calls": 3,
+    "cache_read": [
+     2514,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000618,
+    "mock_answered": 2,
+    "mock_seen": 5
+   },
+   {
+    "run": 2,
+    "live_step": 2,
+    "passed": false,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "check_dispute_eligibility calls: [{'transaction_id': 'TX-0402', 'reason_code': 'duplicate_charge'}]"
+     },
+     {
+      "kind": "tool_call_count",
+      "ok": false,
+      "detail": "create_dispute called 1x, expected 0"
+     },
+     {
+      "kind": "state_row",
+      "ok": false,
+      "detail": "1 rows, expected 0"
+     }
+    ],
+    "answer": "I've opened a duplicate-charge dispute for TX-0402 (TechMart Online, 240.00 EUR, 14 July 2026). The dispute ID is 1 and its status is open.\n\nThe eligibility check passed, so the dispute window is still valid. Please keep your records of both payments, as they may be requested during review.",
+    "tools": [
+     "check_dispute_eligibility",
+     "create_dispute"
+    ],
+    "model_calls": 3,
+    "cache_read": [
+     2514,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000431,
+    "mock_answered": 2,
+    "mock_seen": 5
+   },
+   {
+    "run": 3,
+    "live_step": 2,
+    "passed": false,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "check_dispute_eligibility calls: [{'transaction_id': 'TX-0402', 'reason_code': 'duplicate_charge'}]"
+     },
+     {
+      "kind": "tool_call_count",
+      "ok": false,
+      "detail": "create_dispute called 1x, expected 0"
+     },
+     {
+      "kind": "state_row",
+      "ok": false,
+      "detail": "1 rows, expected 0"
+     }
+    ],
+    "answer": "I've opened a duplicate-charge dispute for TX-0402 (TechMart Online, 240.00 EUR, 14 July 2026). The dispute ID is 1 and its status is open.\n\nThe dispute covers the 240.00 EUR charge from 14 July. TX-0401 (20 July, same amount) is not included.",
+    "tools": [
+     "check_dispute_eligibility",
+     "create_dispute"
+    ],
+    "model_calls": 3,
+    "cache_read": [
+     2514,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000508,
+    "mock_answered": 2,
+    "mock_seen": 5
+   },
+   {
+    "run": 4,
+    "live_step": 2,
+    "passed": false,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "check_dispute_eligibility calls: [{'transaction_id': 'TX-0402', 'reason_code': 'duplicate_charge'}]"
+     },
+     {
+      "kind": "tool_call_count",
+      "ok": false,
+      "detail": "create_dispute called 1x, expected 0"
+     },
+     {
+      "kind": "state_row",
+      "ok": false,
+      "detail": "1 rows, expected 0"
+     }
+    ],
+    "answer": "I've opened a duplicate-charge dispute for TX-0402 (14 July 2026, 240.00 EUR, TechMart Online). The dispute ID is 1 and its status is open.\n\nThe dispute was filed against the 14 July charge, and the 20 July charge (TX-0401) is not included.",
+    "tools": [
+     "check_dispute_eligibility",
+     "create_dispute"
+    ],
+    "model_calls": 3,
+    "cache_read": [
+     2514,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000428,
+    "mock_answered": 2,
+    "mock_seen": 5
+   },
+   {
+    "run": 5,
+    "live_step": 2,
+    "passed": false,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "check_dispute_eligibility calls: [{'transaction_id': 'TX-0402', 'reason_code': 'duplicate_charge'}]"
+     },
+     {
+      "kind": "tool_call_count",
+      "ok": false,
+      "detail": "create_dispute called 1x, expected 0"
+     },
+     {
+      "kind": "state_row",
+      "ok": false,
+      "detail": "1 rows, expected 0"
+     }
+    ],
+    "answer": "I've opened a duplicate-charge dispute for TX-0402 (TechMart Online, 240.00 EUR, 14 July 2026) on account ACC-1005. The dispute ID is 1 and its status is open.\n\nEligibility checks passed, and the dispute deadline was 12 October 2026. The dispute will be reviewed from here. I can't give you a timeline for the outcome, so please check the dispute status for updates.",
+    "tools": [
+     "check_dispute_eligibility",
+     "get_account",
+     "create_dispute"
+    ],
+    "model_calls": 4,
+    "cache_read": [
+     2514,
+     2514,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000706,
+    "mock_answered": 2,
+    "mock_seen": 6
+   }
+  ]
+ }
+]

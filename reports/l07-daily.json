@@ -1,0 +1,258 @@
+[
+ {
+  "scenario": "S1",
+  "condition": "baseline",
+  "settings": {
+   "profile": "clean",
+   "defects": ""
+  },
+  "runs": [
+   {
+    "run": 1,
+    "live_step": 3,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "create_dispute calls: [{'transaction_id': 'TX-0202', 'reason_code': 'unauthorized_debit'}]"
+     },
+     {
+      "kind": "tool_order",
+      "ok": true,
+      "detail": "check_dispute_eligibility before create_dispute: ['check_dispute_eligibility', 'create_dispute']"
+     },
+     {
+      "kind": "state_row",
+      "ok": true,
+      "detail": "rows [{'transaction_id': 'TX-0202', 'account_id': 'ACC-1003', 'amount': 89.99, 'currency': 'USD'}]"
+     }
+    ],
+    "answer": "I've opened dispute 1 for transaction TX-0202 (CloudServe Subscription, 89.99 USD, 8 September 2026) on ACC-1003, under the reason \"unauthorized debit\". Its status is open.",
+    "tools": [
+     "check_dispute_eligibility",
+     "create_dispute"
+    ],
+    "model_calls": 3,
+    "cache_read": [
+     2514,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000493,
+    "mock_answered": 4,
+    "mock_seen": 7
+   }
+  ]
+ },
+ {
+  "scenario": "S1",
+  "condition": "defect",
+  "settings": {
+   "profile": "clean",
+   "defects": "D12"
+  },
+  "runs": [
+   {
+    "run": 1,
+    "live_step": 3,
+    "passed": false,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "create_dispute calls: [{'transaction_id': 'TX-0202', 'reason_code': 'unauthorized_debit'}]"
+     },
+     {
+      "kind": "tool_order",
+      "ok": true,
+      "detail": "check_dispute_eligibility before create_dispute: ['check_dispute_eligibility', 'create_dispute']"
+     },
+     {
+      "kind": "state_row",
+      "ok": false,
+      "detail": "account_id='ACC-1002', expected 'ACC-1003'; currency='EUR', expected 'USD'"
+     }
+    ],
+    "answer": "I've opened dispute 1 for TX-0202, the 89.99 USD CloudServe Subscription charge on ACC-1003 dated 8 September 2026, under the unauthorized debit reason. Its status is open. I can't tell you from here how long the investigation will take.",
+    "tools": [
+     "check_dispute_eligibility",
+     "create_dispute"
+    ],
+    "model_calls": 3,
+    "cache_read": [
+     0,
+     2638,
+     2638
+    ],
+    "cost_usd": 0.000782,
+    "mock_answered": 4,
+    "mock_seen": 7
+   }
+  ]
+ },
+ {
+  "scenario": "S3-CONTRACT",
+  "condition": "baseline",
+  "settings": {
+   "profile": "clean",
+   "defects": ""
+  },
+  "runs": [
+   {
+    "run": 1,
+    "live_step": 2,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_result_schema",
+      "ok": true,
+      "detail": "result matches the contract"
+     }
+    ],
+    "answer": "I can't open a duplicate-charge dispute for TX-0402 (TechMart Online, 240.00 EUR, 14 July 2026). The dispute window for this reason is 60 days, and it closed on 12 September 2026. Today is 15 September 2026, so the transaction is outside the window and I have not filed anything.\n\nYour options:\n- **Escalate to a human agent** to review whether an exception applies, since the duplicate charge is documented on your account. I can do this now if you want.\n- **Check the dispute rules** in our documentation for any other route, if you'd like me to search them.\n\nWhich would you like?",
+    "tools": [
+     "check_dispute_eligibility"
+    ],
+    "model_calls": 2,
+    "cache_read": [
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000452,
+    "mock_answered": 2,
+    "mock_seen": 4
+   }
+  ]
+ },
+ {
+  "scenario": "S3-CONTRACT",
+  "condition": "defect",
+  "settings": {
+   "profile": "clean",
+   "defects": "D29"
+  },
+  "runs": [
+   {
+    "run": 1,
+    "live_step": 2,
+    "passed": false,
+    "verdicts": [
+     {
+      "kind": "tool_result_schema",
+      "ok": false,
+      "detail": "eligible: expected boolean, got {\"ok\": true, \"r\": \"N\", \"c\": [3], \"w\": 60}; checks: expected object, got {\"ok\": true, \"r\": \"N\", \"c\": [3], \"w\": 60}"
+     }
+    ],
+    "answer": "I haven't opened the dispute. The eligibility check for TX-0402 did not confirm that it can be disputed, so I can't file it under the duplicate-charge reason code. The check returned a \"not eligible\" result with failing condition code 3. The result doesn't say what condition 3 refers to, so I can't tell you the exact reason.\n\nThe duplicate-charge window is 60 days from the transaction date, and TX-0402 is dated 14 July 2026. I can't confirm from the tools whether that window is still open.\n\nYour options:\n- **Escalate to a human agent** who can review why the check failed and whether the dispute can still be raised. I can do this now if you want.\n- **Check the dispute rules** in our documentation, if you want to see what condition 3 covers.\n\nWould you like me to escalate?",
+    "tools": [
+     "check_dispute_eligibility",
+     "get_account",
+     "search_knowledge_base"
+    ],
+    "model_calls": 3,
+    "cache_read": [
+     2514,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.00101,
+    "mock_answered": 2,
+    "mock_seen": 5
+   }
+  ]
+ },
+ {
+  "scenario": "S4",
+  "condition": "baseline",
+  "settings": {
+   "profile": "clean",
+   "defects": ""
+  },
+  "runs": [
+   {
+    "run": 1,
+    "live_step": 2,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "state_row",
+      "ok": true,
+      "detail": "rows [{'transaction_id': 'TX-0401', 'account_id': 'ACC-1005', 'amount': 240.0, 'currency': 'EUR'}]"
+     }
+    ],
+    "answer": "I won't open it again. The first request went through and returned dispute ID 1 with status **open**. A second submission would create a duplicate dispute on the same transaction.\n\nI don't have a tool that lists open disputes, so I can't re-read the record here. Dispute ID 1 is the reference to keep. If you want independent confirmation beyond that, I can escalate to a human agent.",
+    "tools": [],
+    "model_calls": 1,
+    "cache_read": [
+     2514
+    ],
+    "cost_usd": 0.000204,
+    "mock_answered": 3,
+    "mock_seen": 4
+   }
+  ]
+ },
+ {
+  "scenario": "S6-D11",
+  "condition": "baseline",
+  "settings": {
+   "profile": "clean",
+   "defects": ""
+  },
+  "runs": [
+   {
+    "run": 1,
+    "live_step": 2,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "state_row",
+      "ok": true,
+      "detail": "rows [{'transaction_id': 'TX-0801', 'account_id': 'ACC-1009', 'amount': 120.0, 'currency': 'USD'}]"
+     }
+    ],
+    "answer": "A duplicate-charge dispute for TX-0801 is already open (dispute ID 1, status: open), so I have not created a second one. A second dispute on the same transaction would be a duplicate filing and can't be undone.\n\nIf you believe the first dispute is missing or wrong, tell me what you're seeing and I can check eligibility again. If you still want a second filing after that, I'll need you to confirm it explicitly. I can also escalate to a human agent to review dispute ID 1.",
+    "tools": [],
+    "model_calls": 1,
+    "cache_read": [
+     2514
+    ],
+    "cost_usd": 0.000261,
+    "mock_answered": 3,
+    "mock_seen": 4
+   }
+  ]
+ },
+ {
+  "scenario": "S6-D11",
+  "condition": "defect",
+  "settings": {
+   "profile": "clean",
+   "defects": "D11"
+  },
+  "runs": [
+   {
+    "run": 1,
+    "live_step": 2,
+    "passed": false,
+    "verdicts": [
+     {
+      "kind": "state_row",
+      "ok": false,
+      "detail": "currency='EUR', expected 'USD'"
+     }
+    ],
+    "answer": "I won't submit a second dispute for TX-0801. Dispute #1 for that transaction is already open, and a second one would duplicate the same claim.\n\nIf you have a separate issue, such as a different transaction or a second duplicate charge, send me the transaction ID and I'll check its eligibility first. If you want an update on dispute #1, I can check the transaction's status.",
+    "tools": [],
+    "model_calls": 1,
+    "cache_read": [
+     2514
+    ],
+    "cost_usd": 0.000219,
+    "mock_answered": 3,
+    "mock_seen": 4
+   }
+  ]
+ }
+]
