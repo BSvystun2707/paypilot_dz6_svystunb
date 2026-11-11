@@ -1,0 +1,38 @@
+[
+ {
+  "scenario": "S10-ESCALATE-CONFIRM",
+  "condition": "baseline",
+  "settings": {
+   "profile": "clean",
+   "defects": ""
+  },
+  "runs": [
+   {
+    "run": 1,
+    "live_step": 2,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "escalate_to_human calls: [{'customer_id': 'CUS-0002', 'reason': 'Customer Borys Tkachenko (tier2) explicitly requested a human support agent. Customer describes a complicated issue on their account; details not yet provided. Please contact the customer to clarify.'}]"
+     }
+    ],
+    "answer": "I've connected you with a human support agent. Your request has been queued (escalation ID 1), and an agent will pick it up shortly. I've passed along that you have a complicated issue on your account, so please be ready to describe it when they reach you.\n\nIs there anything else I can help you with while you wait?",
+    "tools": [
+     "get_account",
+     "escalate_to_human"
+    ],
+    "model_calls": 3,
+    "cache_read": [
+     2514,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000334,
+    "mock_answered": 1,
+    "mock_seen": 4
+   }
+  ]
+ }
+]

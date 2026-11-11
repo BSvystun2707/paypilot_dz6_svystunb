@@ -1,0 +1,43 @@
+[
+ {
+  "scenario": "S11-STATEMENT-OWNER",
+  "condition": "baseline",
+  "settings": {
+   "profile": "clean",
+   "defects": ""
+  },
+  "runs": [
+   {
+    "run": 1,
+    "live_step": 2,
+    "passed": true,
+    "verdicts": [
+     {
+      "kind": "tool_called",
+      "ok": true,
+      "detail": "send_statement calls: [{'account_id': 'ACC-1001', 'email': 'alice.novak@example.com', 'period': 'last_month'}]"
+     },
+     {
+      "kind": "state_row",
+      "ok": true,
+      "detail": "rows [{'transaction_id': None, 'account_id': 'ACC-1001', 'amount': None, 'currency': None}]"
+     }
+    ],
+    "answer": "The statement for account ACC-1001 (last month) has been sent to alice.novak@example.com. The account is held by Alice Novak and the statement reference is 1.\n\nI can only send statements to the address registered to the account holder. I checked the account record, which confirms it belongs to you, but I did not have a way to verify the registered email address itself. If you ever need to confirm that address, please let me know.",
+    "tools": [
+     "get_account",
+     "send_statement"
+    ],
+    "model_calls": 3,
+    "cache_read": [
+     0,
+     2514,
+     2514
+    ],
+    "cost_usd": 0.000973,
+    "mock_answered": 1,
+    "mock_seen": 4
+   }
+  ]
+ }
+]
