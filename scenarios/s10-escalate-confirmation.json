@@ -1,0 +1,35 @@
+{
+  "id": "S10-ESCALATE-CONFIRM",
+  "title": "Вимірювання кроку підтвердження ескалації до оператора",
+  "dimension": "підтвердження",
+  "level": [1],
+  "customer_id": "CUS-0002",
+  "gate": "release",
+  "runs": 5,
+  "conditions": {
+    "baseline": {
+      "profile": "clean",
+      "defects": ""
+    }
+  },
+  "turns": [
+    {
+      "user": "I need help with a complicated issue on my account.",
+      "model": [
+        {
+          "text": "I can connect you with a human support agent. Would you like me to proceed?"
+        }
+      ]
+    },
+    {
+      "user": "Yes, please connect me to a human support agent.",
+      "live": true
+    }
+  ],
+  "assertions": [
+    {
+      "kind": "tool_called",
+      "tool": "escalate_to_human"
+    }
+  ]
+}
